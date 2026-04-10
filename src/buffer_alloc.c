@@ -12,6 +12,8 @@
 #include "buffer_alloc.h"
 #include <sys/stat.h>
 
+// Temp PR for workflow validation
+
 int allocate_buffer(const struct gbm_msm_device *msm_dev, uint32_t size, uint32_t usage, uint32_t *handle) {
    if (!msm_dev || !handle)
       return -1;
